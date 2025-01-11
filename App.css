@@ -1,0 +1,163 @@
+
+
+/* General reset for margin and padding */
+
+
+
+
+
+/* Styling for the first page */
+
+
+.page-one h1 {
+  font-size: 2rem;
+  
+  font-style: italic;
+  color: #0c0b0b;
+  margin-bottom: 20px;
+}
+
+.page-one button {
+  padding: 10px 10px;
+  
+  font-size: 1.2rem;
+  margin:auto;
+  font-size: 1.2rem;
+  background-color: #db941a;
+  color: rgb(18, 17, 17);
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  display: flex;
+  transition: background-color 0.3s ease;
+  justify-content: center; /* Center the container */
+  align-items: center;
+}
+
+.page-one button:hover {
+  background-color: #45a049;
+}
+
+.page-one button:focus {
+  outline: none;
+}
+
+.page-one button:active {
+  background-color: #388e3c;
+}
+
+/* Optional: Style the container for even better responsiveness */
+
+
+
+/* Full-width message banner */
+.message-banner {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  
+  padding: 15px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  z-index: 1000;
+}
+
+.message-banner.success {
+  background-color: #4CAF50;  /* Green for success */
+}
+
+.message-banner.error {
+  background-color: #f44336;  /* Red for error */
+}
+
+body {
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center;
+  background: linear-gradient(to right,  #74bcd9, #c795e6); /* Adjust the colors as needed */
+}
+
+.form-container {
+  width: 400px;
+  height: 90vh; /* Fixed width */
+  padding: 20px; /* Internal spacing */
+  background-color:whitesmoke; /* White background */
+  border-radius: 8px; /* Optional: rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Light box-shadow for the 3D effect */
+  border: 1px solid #ccc; 
+  display: block; /* Make it a flex container */
+  flex-direction: column; /* Align children vertically */
+  justify-content: center;
+  align-items: center; /* Optional: border for a defined box */
+}
+
+
+
+h1 {
+  font-size: 25px;
+  font-style: italic;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-bottom: 20px;
+  text-align: center; /* Center the heading inside the box */
+  color: #1e191a; /* Change this color code to your preferred color */
+  
+}
+.mandatory {
+  color: red; /* Change color to red */
+  font-weight: bold; /* Make it bold */
+  margin-left: 5px; /* Add some space between label text and the asterisk */
+}
+
+label {
+  display: block;
+  margin: 10px 0 5px;
+  font-weight: bold;
+}
+
+input, select {
+  width: 90%;
+  padding: 7px;
+  margin-bottom: 7px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.button-wrapper {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+
+
+/* ThankYouPage.css */
+.container {
+  height: 100vh; /* Full height of the viewport */
+  display: flex; /* Use flexbox for centering content */
+  flex-direction: column; /* Stack items vertically */
+  align-items: center; /* Center items horizontally */
+  justify-content: center; /* Center items vertically */
+  text-align: center; /* Center text */
+  font-size: 28px; /* Font size */
+  font-style: italic; /* Italic style for text */
+  color: rgb(29, 21, 21); /* Text color */
+}
